@@ -24,13 +24,41 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ---
 
+### 2. Fundamental Classification (Decision Tree)
+
+* **File:** `DecisionTree.ipynb`
+* **Description:** A beginner-friendly implementation of a Decision Tree classifier using the classic Iris dataset.
+
+**What I Implemented:**
+
+* [Exploratory Data Analysis (EDA)](#eda)
+* **Train-Test Split:** Correctly separating data to evaluate the model's performance on unseen data.
+* [Decision Tree Classifier](#decision-tree)
+* **Tree Visualization:** Plotted the final tree in a human-readable format.
+* [Feature Importance](#feature-importance)
+* [Model Evaluation Metrics](#model-evaluation) (Accuracy & Classification Report)
+
+---
+
 ## 📚 Key Concepts & Glossary
 
 Here are simple definitions for the key terms used in my projects.
 
+### <a name="decision-tree"></a>Decision Tree Classifier
+
+A popular and intuitive **supervised learning** algorithm for **classification**. It works by learning a series of simple "if-then-else" rules from the data, creating a tree-like structure. For example, "Is the *petal length < 2.5cm*? If YES, predict *setosa*. If NO, ask another question."
+
 ### <a name="eda"></a>Exploratory Data Analysis (EDA)
 
 The practice of using `pandas` commands (like `.head()`, `.info()`, `.describe()`) and visualizations to understand a dataset's main characteristics, find patterns, spot anomalies, and check for missing data *before* building a model.
+
+### <a name="feature-importance"></a>Feature Importance
+
+A score (usually from 0 to 1) that a model (like a Decision Tree or Random Forest) assigns to each input feature. It tells you which features the model found *most useful* for making its predictions. For example, the Iris model likely found "petal length" to be the most important feature.
+
+### <a name="gridsearchcv"></a>GridSearchCV
+
+Stands for "Grid Search Cross-Validation." This is an automated technique for **hyperparameter tuning**. You give it a "grid" of possible parameters (e.g., `alpha: [0.1, 1, 10]`), and it automatically tests every single combination to find the one that produces the best-performing model.
 
 ### <a name="linear-regression"></a>Linear Regression
 
@@ -39,16 +67,6 @@ A foundational **supervised learning** algorithm used for **regression** (predic
 ### <a name="logistic-regression"></a>Logistic Regression
 
 A foundational **supervised learning** algorithm used for **classification** (predicting a category, like "has cancer" or "does not have cancer"). Despite its name, it's for classification, not regression. It works by fitting a logistic (S-shaped) curve to the data and predicting the *probability* (from 0 to 1) that an input belongs to a certain class.
-
-### <a name="regularization"></a>Regularization (Ridge & Lasso)
-
-A technique used to prevent **overfitting** (when a model learns the training data *too* well and fails on new data). It works by adding a small penalty to the model for having features with large, complex "weights".
-* **Ridge (L2):** Shrinks large weights, but rarely makes them zero. Good all-around choice.
-* **Lasso (L1):** Can shrink weights all the way to zero, effectively performing automatic feature selection.
-
-### <a name="gridsearchcv"></a>GridSearchCV
-
-Stands for "Grid Search Cross-Validation." This is an automated technique for **hyperparameter tuning**. You give it a "grid" of possible parameters (e.g., `alpha: [0.1, 1, 10]`), and it automatically tests every single combination to find the one that produces the best-performing model.
 
 ### <a name="model-evaluation"></a>Model Evaluation Metrics
 
@@ -67,3 +85,9 @@ The numbers we use to measure how good a model is. The metric you choose depends
     * **Precision:** Of all the times the model predicted "Yes," what percentage was correct? (Good for minimizing false positives).
     * **Recall:** Of all the *actual* "Yes" cases, what percentage did the model find? (Good for minimizing false negatives).
     * **F1-Score:** The harmonic mean (a special average) of Precision and Recall. It provides a single score that balances both.
+
+### <a name="regularization"></a>Regularization (Ridge & Lasso)
+
+A technique used to prevent **overfitting** (when a model learns the training data *too* well and fails on new data). It works by adding a small penalty to the model for having features with large, complex "weights".
+* **Ridge (L2):** Shrinks large weights, but rarely makes them zero. Good all-around choice.
+* **Lasso (L1):** Can shrink weights all the way to zero, effectively performing automatic feature selection.
