@@ -24,19 +24,6 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ---
 
-### 2. (Your Next Project Title)
-
-* **File:** `(your-next-notebook.ipynb)`
-* **Description:** (A one-sentence summary of what this project does.)
-
-**What I Implemented:**
-
-* (e.g., [K-Nearest Neighbors (KNN)](#knn))
-* (e.g., Feature Engineering)
-* (Add more concepts here...)
-
----
-
 ## 📚 Key Concepts & Glossary
 
 Here are simple definitions for the key terms used in my projects.
