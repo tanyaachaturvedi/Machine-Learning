@@ -2,6 +2,9 @@
 
 This repository is my personal collection of machine learning projects and notebooks, created to document my learning journey. It's designed to be beginner-friendly, with explanations for the key concepts used in each project.
 
+* **Supervised_Learning:** Models that learn from data with a known "answer" or "label" (e.g., predicting prices, classifying species).
+* **Unsupervised_Learning:** Models that find hidden patterns in data without any labels (e.g., clustering customers).
+
 ## Projects
 
 Below is a list of the projects I've completed. Each is a self-contained notebook.
@@ -10,7 +13,7 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ### 1. Fundamental Regression & Classification
 
-* **File:** `Linear_and_Logistic_Regression.ipynb`
+* **File:** `Supervised_Learning/Linear_and_Logistic_Regression.ipynb`
 * **Description:** A notebook implementing and evaluating fundamental supervised learning models for both regression (predicting a value) and classification (predicting a category).
 
 **What I Implemented:**
@@ -26,7 +29,7 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ### 2. Fundamental Classification (Decision Tree)
 
-* **File:** `DecisionTree.ipynb`
+* **File:** `Supervised_Learning/DecisionTree.ipynb`
 * **Description:** A beginner-friendly implementation of a Decision Tree classifier using the classic Iris dataset.
 
 **What I Implemented:**
