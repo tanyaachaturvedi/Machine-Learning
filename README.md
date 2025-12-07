@@ -43,6 +43,28 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ---
 
+### ✅ 3. K-Means Clustering (From Scratch + Sklearn) — *Unsupervised Learning*
+
+**File:**  
+- `Unsupervised_Learning/KMeans_Clustering.ipynb`
+
+**Description:**  
+This notebook introduces **unsupervised learning** using the K-Means clustering algorithm. The algorithm is implemented **from scratch using NumPy** and also using **scikit-learn**, with visual comparison.
+
+**What I Implemented:**
+- What is clustering?
+- What is K-Means algorithm?
+- Euclidean distance calculation
+- Random centroid initialization
+- Cluster assignment using distance
+- Centroid update using mean
+- Full K-Means implementation **from scratch**
+- K-Means using **scikit-learn**
+- Data visualization using Matplotlib
+- Visual comparison of:
+  - From-scratch result
+  - Sklearn result
+
 ## 📚 Key Concepts & Glossary
 
 Here are simple definitions for the key terms used in my projects.
@@ -70,6 +92,14 @@ A foundational **supervised learning** algorithm used for **regression** (predic
 ### <a name="logistic-regression"></a>Logistic Regression
 
 A foundational **supervised learning** algorithm used for **classification** (predicting a category, like "has cancer" or "does not have cancer"). Despite its name, it's for classification, not regression. It works by fitting a logistic (S-shaped) curve to the data and predicting the *probability* (from 0 to 1) that an input belongs to a certain class.
+
+### ✅ K-Means Clustering
+
+A popular **unsupervised learning algorithm** used for grouping similar data points into clusters. The algorithm works by:
+1. Choosing random centroids
+2. Assigning each data point to the nearest centroid
+3. Updating centroids using the mean of assigned points
+4. Repeating until the clusters stabilize
 
 ### <a name="model-evaluation"></a>Model Evaluation Metrics
 
