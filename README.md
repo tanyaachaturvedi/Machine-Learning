@@ -43,7 +43,7 @@ Below is a list of the projects I've completed. Each is a self-contained noteboo
 
 ---
 
-### ✅ 3. K-Means Clustering (From Scratch + Sklearn) — *Unsupervised Learning*
+###3. K-Means Clustering (From Scratch + Sklearn) — *Unsupervised Learning*
 
 **File:**  
 - `Unsupervised_Learning/KMeans_Clustering.ipynb`
@@ -93,7 +93,7 @@ A foundational **supervised learning** algorithm used for **regression** (predic
 
 A foundational **supervised learning** algorithm used for **classification** (predicting a category, like "has cancer" or "does not have cancer"). Despite its name, it's for classification, not regression. It works by fitting a logistic (S-shaped) curve to the data and predicting the *probability* (from 0 to 1) that an input belongs to a certain class.
 
-### ✅ K-Means Clustering
+###K-Means Clustering
 
 A popular **unsupervised learning algorithm** used for grouping similar data points into clusters. The algorithm works by:
 1. Choosing random centroids
